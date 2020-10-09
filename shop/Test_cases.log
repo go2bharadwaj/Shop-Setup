@@ -1,0 +1,516 @@
+Test case 1 (console output):
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 2
+
+Shop is not set up yet
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 3
+
+Shop is not set up yet!
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 4
+
+Shop is not set up yet!
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 5
+Invalid Input. Enter a value > 0 and < 5: -2
+Invalid Input. Enter a value > 0 and < 5: 0
+
+Invalid input, please enter valid function number(ie..1 to 4):
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want:
+
+
+
+
+
+
+
+
+
+Test Case 2(console output):
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 3
+
+Shop is not set up yet!
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: -5
+Invalid Input. Enter a value > 0 and < 5: 2
+
+Shop is not set up yet
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 1
+Please enter the number of items to setup shop:  3
+
+Enter the name of the 1st product: sugar
+Enter the number of package price of sugar :10
+Enter the number of packages ('x') to qualify for Special Discount (buy 'x' get 1 free)
+for sugar , or 0 if no Special Discount offered:3
+Enter the name of the 2nd product: salt
+Enter the number of package price of salt :20
+Enter the number of packages ('x') to qualify for Special Discount (buy 'x' get 1 free)
+for salt , or 0 if no Special Discount offered:0
+Enter the name of the 3rd product: milk
+Enter the number of package price of milk :30
+Enter the number of packages ('x') to qualify for Special Discount (buy 'x' get 1 free)
+for milk , or 0 if no Special Discount offered:4
+
+Enter the dollar amount to qualify for Additional Discount (or 0 if none offered): 100
+Enter the Additional Discount rate (e.g., 0.1 for 10%):3
+Invalid input. Enter a value > 0 and <= 0.5:.2
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 3
+
+You have not bought anything! 
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 2
+
+Enter the number of sugar packages to buy: 10
+Enter the number of salt packages to buy: 0
+Enter the number of milk packages to buy: 20
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 3
+
+10 packages of sugar @ $10.00 per pkg = $100.00
+20 packages of milk @ $30.00 per pkg = $600.00
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 3
+
+10 packages of sugar @ $10.00 per pkg = $100.00
+20 packages of milk @ $30.00 per pkg = $600.00
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 4
+
+Original Sub Total:            $700.00
+Special Discounts:            -$140.00
+New Sub Total:                 $560.00
+Additional %20 Discount:      -$112.00
+Final Sub Total:               $448.00
+
+Thanks for coming!
+
+-------------------------------------------------
+Would you like to re-run (1 for yes, 0 for no)? 0
+-------------------------------------------------
+
+
+
+
+
+
+
+
+
+Test Case 3 (console output):
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 1
+Please enter the number of items to setup shop:  3
+
+Enter the name of the 1st product: candy
+Enter the number of package price of candy :10
+Enter the number of packages ('x') to qualify for Special Discount (buy 'x' get 1 free)
+for candy , or 0 if no Special Discount offered:1
+Enter the name of the 2nd product: tomatoes
+Enter the number of package price of tomatoes :20
+Enter the number of packages ('x') to qualify for Special Discount (buy 'x' get 1 free)
+for tomatoes , or 0 if no Special Discount offered:2
+Enter the name of the 3rd product: paper
+Enter the number of package price of paper :30
+Enter the number of packages ('x') to qualify for Special Discount (buy 'x' get 1 free)
+for paper , or 0 if no Special Discount offered:3
+
+Enter the dollar amount to qualify for Additional Discount (or 0 if none offered): 0
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 2
+
+Enter the number of candy packages to buy: 0
+Enter the number of tomatoes packages to buy: 0
+Enter the number of paper packages to buy: 0
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 3
+
+No items were purchased.
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 2
+
+Enter the number of candy packages to buy: 1
+Enter the number of tomatoes packages to buy: 1
+Enter the number of paper packages to buy: 1
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 3
+
+1 package of candy @ $10.00 per pkg = $10.00
+1 package of tomatoes @ $20.00 per pkg = $20.00
+1 package of paper @ $30.00 per pkg = $30.00
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 4
+
+Original Sub Total:            $60.00
+No Special Discounts applied 
+New Sub Total:                 $60.00
+You did not qualify for an Additional Discount
+Final Sub Total:               $60.00
+
+Thanks for coming!
+
+-------------------------------------------------
+Would you like to re-run (1 for yes, 0 for no)? 0
+-------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+Test case 4 (console output):
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 2
+
+Shop is not set up yet
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 1
+Please enter the number of items to setup shop:  2
+
+Enter the name of the 1st product: bag
+Enter the number of package price of bag :40
+Enter the number of packages ('x') to qualify for Special Discount (buy 'x' get 1 free)
+for bag , or 0 if no Special Discount offered:4
+Enter the name of the 2nd product: glasses
+Enter the number of package price of glasses :50
+Enter the number of packages ('x') to qualify for Special Discount (buy 'x' get 1 free)
+for glasses , or 0 if no Special Discount offered:5
+
+Enter the dollar amount to qualify for Additional Discount (or 0 if none offered): 200
+Enter the Additional Discount rate (e.g., 0.1 for 10%):.3
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 2
+
+Enter the number of bag packages to buy: -4
+Invalid input. Enter a value >= 0: -2
+Invalid input. Enter a value >= 0: 12
+Enter the number of glasses packages to buy: -5
+Invalid input. Enter a value >= 0: 15
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 1
+Please enter the number of items to setup shop:  3
+
+Enter the name of the 1st product: pillow
+Enter the number of package price of pillow :11.50
+Enter the number of packages ('x') to qualify for Special Discount (buy 'x' get 1 free)
+for pillow , or 0 if no Special Discount offered:4
+Enter the name of the 2nd product: pens
+Enter the number of package price of pens :14.43
+Enter the number of packages ('x') to qualify for Special Discount (buy 'x' get 1 free)
+for pens , or 0 if no Special Discount offered:5
+Enter the name of the 3rd product: pencils
+Enter the number of package price of pencils :2.25
+Enter the number of packages ('x') to qualify for Special Discount (buy 'x' get 1 free)
+for pencils , or 0 if no Special Discount offered:6
+
+Enter the dollar amount to qualify for Additional Discount (or 0 if none offered): 100
+Enter the Additional Discount rate (e.g., 0.1 for 10%):.25
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 2
+
+Enter the number of pillow packages to buy: 12
+Enter the number of pens packages to buy: 14
+Enter the number of pencils packages to buy: 20
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 3
+
+12 packages of pillow @ $11.50 per pkg = $138.00
+14 packages of pens @ $14.43 per pkg = $202.02
+20 packages of pencils @ $2.25 per pkg = $45.00
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 4
+
+Original Sub Total:            $385.02
+Special Discounts:            -$56.36
+New Sub Total:                 $328.66
+Additional %25 Discount:      -$82.16
+Final Sub Total:               $246.49
+
+Thanks for coming!
+
+-------------------------------------------------
+Would you like to re-run (1 for yes, 0 for no)? 0
+-------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+Test case 5 (console output):
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 1
+Please enter the number of items to setup shop:  1
+
+Enter the name of the 1st product: soap
+Enter the number of package price of soap :30
+Enter the number of packages ('x') to qualify for Special Discount (buy 'x' get 1 free)
+for soap , or 0 if no Special Discount offered:4
+
+Enter the dollar amount to qualify for Additional Discount (or 0 if none offered): 50
+Enter the Additional Discount rate (e.g., 0.1 for 10%):.3
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 4
+
+You have not bought anything!
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 3
+
+You have not bought anything! 
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 2
+
+Enter the number of soap packages to buy: 3
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 3
+
+3 packages of soap @ $30.00 per pkg = $90.00
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 4
+
+Original Sub Total:            $90.00
+No Special Discounts applied 
+New Sub Total:                 $90.00
+Additional %30 Discount:      -$27.00
+Final Sub Total:               $63.00
+
+Thanks for coming!
+
+-------------------------------------------------
+Would you like to re-run (1 for yes, 0 for no)? 1
+-------------------------------------------------
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 1
+Please enter the number of items to setup shop:  2
+
+Enter the name of the 1st product: charger
+Enter the number of package price of charger :50
+Enter the number of packages ('x') to qualify for Special Discount (buy 'x' get 1 free)
+for charger , or 0 if no Special Discount offered:2
+Enter the name of the 2nd product: headset
+Enter the number of package price of headset :30
+Enter the number of packages ('x') to qualify for Special Discount (buy 'x' get 1 free)
+for headset , or 0 if no Special Discount offered:1
+
+Enter the dollar amount to qualify for Additional Discount (or 0 if none offered): 100
+Enter the Additional Discount rate (e.g., 0.1 for 10%):.5
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 2
+
+Enter the number of charger packages to buy: 4
+Enter the number of headset packages to buy: 2
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 3
+
+4 packages of charger @ $50.00 per pkg = $200.00
+2 packages of headset @ $30.00 per pkg = $60.00
+
+This program supports 4 functions:
+	1. Setup Shop
+	2. Buy
+	3. List Items
+	4. Checkout
+Please choose the function you want: 4
+
+Original Sub Total:            $260.00
+Special Discounts:            -$80.00
+New Sub Total:                 $180.00
+Additional %50 Discount:      -$90.00
+Final Sub Total:               $90.00
+
+Thanks for coming!
+
+-------------------------------------------------
+Would you like to re-run (1 for yes, 0 for no)? 0
+-------------------------------------------------
+
