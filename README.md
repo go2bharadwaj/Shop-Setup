@@ -1,0 +1,2 @@
+# Shop Setup
+ The Shop Setup is a small but elegant program that is written in Java using Eclipse IDE. The program could set up a shop with 'n' number of items including, desired discounts and offers (ie, buy one get one free , buy two get one free...etc). The program also allowed you to buy the products, after setup, including an accurately calculated total (including offers and discounts), with the number of items selected.
